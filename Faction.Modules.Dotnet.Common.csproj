@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props" Condition="Exists('packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -8,6 +9,13 @@
     <RootNamespace>Marauder.Common</RootNamespace>
     <AssemblyName>Faction.Modules.Dotnet.Common</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Faction.Modules.Dotnet.Common</PackageId>
+    <PackageVersion>20190309</PackageVersion>
+    <Authors>The Faction C2 Team</Authors>
+    <Owners>The Faction C2 Team</Owners>
+    <PackageProjectUrl>https://github.com/FactionC2/Faction.Modules.Dotnet.Common</PackageProjectUrl>
+    <Description>Common library for .NET modules in the Faction C2 Framework</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,4 +50,5 @@
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets" Condition="Exists('packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets')" />
 </Project>
