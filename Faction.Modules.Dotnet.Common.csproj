@@ -11,7 +11,7 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>Faction.Modules.Dotnet.Common</PackageId>
-    <PackageVersion>20190309</PackageVersion>
+    <PackageVersion>2019.04.20-beta01</PackageVersion>
     <Authors>The Faction C2 Team</Authors>
     <Owners>The Faction C2 Team</Owners>
     <PackageProjectUrl>https://github.com/FactionC2/Faction.Modules.Dotnet.Common</PackageProjectUrl>
