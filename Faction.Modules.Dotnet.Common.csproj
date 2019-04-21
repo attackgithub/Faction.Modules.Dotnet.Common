@@ -6,12 +6,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A1A023F4-59A0-42BC-A3B5-64C3C9EAEE5A}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Marauder.Common</RootNamespace>
+    <RootNamespace>Faction.Modules.Dotnet.Common</RootNamespace>
     <AssemblyName>Faction.Modules.Dotnet.Common</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>Faction.Modules.Dotnet.Common</PackageId>
-    <PackageVersion>2019.04.20-beta01</PackageVersion>
+    <PackageVersion>2019.04.20</PackageVersion>
     <Authors>The Faction C2 Team</Authors>
     <Owners>The Faction C2 Team</Owners>
     <PackageProjectUrl>https://github.com/FactionC2/Faction.Modules.Dotnet.Common</PackageProjectUrl>
