@@ -11,7 +11,7 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>Faction.Modules.Dotnet.Common</PackageId>
-    <PackageVersion>2019.04.20</PackageVersion>
+    <PackageVersion>2019.4.24</PackageVersion>
     <Authors>The Faction C2 Team</Authors>
     <Owners>The Faction C2 Team</Owners>
     <PackageProjectUrl>https://github.com/FactionC2/Faction.Modules.Dotnet.Common</PackageProjectUrl>
@@ -37,7 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Threading.Tasks.NET35">
-      <HintPath>..\packages\System.Threading.Tasks.Unofficial.3.1\lib\net35\System.Threading.Tasks.NET35.dll</HintPath>
+      <HintPath>.\packages\System.Threading.Tasks.Unofficial.3.1\lib\net35\System.Threading.Tasks.NET35.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
